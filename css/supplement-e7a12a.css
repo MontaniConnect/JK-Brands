@@ -4631,6 +4631,8 @@ figcaption {
 
 .my_stores._3:hover {
   background-image: url('../images/portrait-woman-checking-products-ordered-online-min_1.webp');
+  background-position: 50% 0;
+  background-size: cover;
 }
 
 .my_stores._4 {
