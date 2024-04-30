@@ -2391,6 +2391,7 @@ figcaption {
 .section-content {
   background-color: #fdfdfd;
   padding: 80px 5% 100px;
+  display: block;
 }
 
 .container-small {
@@ -2430,6 +2431,8 @@ figcaption {
   text-transform: none;
   margin-top: 0;
   margin-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   font-size: 16px;
   line-height: 170%;
 }
@@ -5369,6 +5372,12 @@ figcaption {
     height: 850px;
   }
 
+  .div-block-24 {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+  }
+
   .columns-quicklinks._1 {
     min-height: 500px;
   }
@@ -5436,6 +5445,13 @@ figcaption {
   .my_stores {
     width: 95%;
     min-height: 500px;
+  }
+
+  .html-embed-3 {
+    flex-flow: row;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
   }
 }
 
